@@ -8,13 +8,32 @@ const firstapi = (req:Request,res:Response)=>{
 
         //Write down the api logic here 
 
-        res.json({message: "this is  first api"})
+       res.json({message: "this is  first api"})
+
+      
         
     } catch (error) {
-        res.json(error)
+
+       return res.json(error)
+    }
+}
+
+const gqlfirstapi = (id:string)=>{
+
+    try {
+
+        //Write down the gql api logic here 
+
+       
+
+       return  `this is  first api ${id}`;
+        
+    } catch (error) {
+
+       return error;
     }
 }
 
 
 
-module.exports = {firstapi}; //export all the controllers declared above 
+module.exports = {firstapi , gqlfirstapi}; //export all the controllers declared above 

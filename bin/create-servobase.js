@@ -7,6 +7,17 @@ import chalk from 'chalk';
 
 const templateDir = path.join(new URL('.', import.meta.url).pathname, '../template');
 const jstemplateDir = path.join(new URL('.', import.meta.url).pathname, '../jstemplate');
+const gqlts = path.join(new URL('.', import.meta.url).pathname, '../gqlts');
+const gqljs = path.join(new URL('.', import.meta.url).pathname, '../gqljs');
+const gqlsockts = path.join(new URL('.', import.meta.url).pathname, '../gqlsockts');
+const gqlsockjs = path.join(new URL('.', import.meta.url).pathname, '../gqlsockjs');
+const js = path.join(new URL('.', import.meta.url).pathname, '../js');
+const ts = path.join(new URL('.', import.meta.url).pathname, '../ts');
+const modeljs = path.join(new URL('.', import.meta.url).pathname, '../modeljs');
+const modelts = path.join(new URL('.', import.meta.url).pathname, '../modelts');
+const sockjs = path.join(new URL('.', import.meta.url).pathname, '../js');
+const sockts = path.join(new URL('.', import.meta.url).pathname, '../ts');
+
 const currentDir = process.cwd();
 
 inquirer
@@ -22,7 +33,7 @@ inquirer
       type: 'list',
       name: 'choselanguage',
       message: 'Select language - ',
-      choices: ["Javascript"," Typescript"]
+      choices: ["Javascript","Typescript"]
     },
 
     {
@@ -50,7 +61,7 @@ inquirer
 
 
   ])
-  .then(answers => {
+  .then( (answers) => {
     const targetDir = path.join(currentDir, answers.projectName);
     
     if (fs.existsSync(targetDir)) {
@@ -59,31 +70,248 @@ inquirer
     }
 
     const chosenLanguages = answers.choselanguage;
+    const isgraphql = answers.chosegql;
+    const issock = answers.chosesock;
+    const isdb = answers.chosedb;
+
+   
 
 
 
-    if(answers.choselanguage === "Javascript"){
+    if(chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === false){
       fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(js, targetDir);
       console.log(chalk.green('Project created successfully!'));
       console.log(chalk.blue(`Navigate to the project directory` ));
       console.log(chalk.blue(`Run` ));
       console.log(chalk.green('npm install'));
       console.log(chalk.blue(`Run` ));
       console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === false`)
      
     }
-    else{
-      fs.copySync(templateDir, targetDir);
-      console.log(chalk.green.bold('Project created successfully!'));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.cyanBright(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
+
+    else if(chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === true){
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(sockjs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === false){
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(js, targetDir);
+      fs.copySync(modeljs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === true){
+
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(sockjs, targetDir);
+      fs.copySync(modeljs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === false){
+
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(gqljs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === true){
+
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(gqlsockjs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === false){
+
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(gqljs, targetDir);
+      fs.copySync(modeljs, targetDir);
+
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === true){
+
+      fs.copySync(jstemplateDir, targetDir);
+      fs.copySync(gqlsockjs, targetDir);
+      fs.copySync(modeljs, targetDir);
       
-      
+      console.log(chalk.green('Project created successfully!'));
+      console.log(chalk.blue(`Navigate to the project directory` ));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm install'));
+      console.log(chalk.blue(`Run` ));
+      console.log(chalk.green('npm run dev'));
+
+      // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === true`)
+     
     }
    
+
+
+
+
+    ////////////////////////////////////////
+    
+    else if(chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === false){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === false`)
+     
+    }
+
+    else if(chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === true){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === false){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === true){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === false){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === true){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === true`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === false){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === false`)
+     
+    }
+    else if(chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === true){
+      // fs.copySync(jstemplateDir, targetDir);
+      // console.log(chalk.green('Project created successfully!'));
+      // console.log(chalk.blue(`Navigate to the project directory` ));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm install'));
+      // console.log(chalk.blue(`Run` ));
+      // console.log(chalk.green('npm run dev'));
+
+      console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === true`)
+     
+    }
+   
+
+
+    
+   
+    else{
+      
+      console.log("no option chosen");
+    }
 
    
       

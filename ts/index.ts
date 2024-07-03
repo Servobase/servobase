@@ -1,14 +1,19 @@
-const  express =  require('express');
-const cors =  require('cors');
-const morgan =  require('morgan');
+import express, {Request ,Response} from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
+import mongoose from 'mongoose';
+
 
 //import all the routes  declared in the routes directory.
 
-const healthroute = require('./routes/test.js')
+//@ts-ignore
+import healthroute from './routes/test'
+//@ts-ignore
+import apiroute from './routes/app'
 
-const apiroute =  require('./routes/app.js')
 
 
+async function init (){
 
 const app = express();
 
@@ -18,7 +23,7 @@ app.use(morgan('tiny'));
 
 //entry point
 
-app.get('/', (req,res)=>{
+app.get('/', (req:Request,res:Response)=>{
     try {
         
         res.json({message: "Welcome To ServoBase , Server is running !"})
@@ -26,6 +31,8 @@ app.get('/', (req,res)=>{
         res.json(error)
     }
 })
+
+
 
 //use the routes that are imported above
 
@@ -40,3 +47,7 @@ app.listen(8080, ()=>{
 
     console.log("server started")
 })
+
+}
+
+init();
