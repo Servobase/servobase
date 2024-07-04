@@ -56,6 +56,41 @@ Servobase setups the architecture for your app in no time.
    npm run dev
    ```
 
+### Contributions
+Contributions are welcomed
+<br>
+Follow the steps mentioned below -
+
+#### Setup Project Locally
+
+Fork the repository .
+(https://github.com/Servobase/servobase/fork)
+
+Clone the repository in your machine
+<br>
+Navigate to the project directory
+```sh
+   cd servobase
+   ```
+Run
+```sh
+  npm install
+   ```
+To install all the packages required.
+<br>
+
+#### For a new feature -
+create a new branch
+<br>
+create a directory in the feature directory and add all your code in it .
+<br>
+Create a pull request, Your PR will be merged if the feature found to be beneficial.
+
+#### For a bug or an issue -
+Open a new issue from the issues tab, Work on the issue, Open a Pull Request, It will be merged shortly.
+
+#### Made with ❤️ by <a href="https://www.linkedin.com/in/vidit-tamrakar-877a58249/">Vidit Tamrakar</a>
+
 
 
   
