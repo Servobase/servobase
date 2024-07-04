@@ -8,7 +8,7 @@
 
 [servobase.webm](https://github.com/Servobase/servobase/assets/114985411/9e49ade9-89fd-4ec0-a904-1dbbca46e422)
 
-### Servobase - A CLI Tool for setting up express.js apps fastly
+### Servobase - A CLI Tool for setting up express.js apps quickly
 It is a CLI Tool which makes our work easier while starting up a new express.js app.
 <br>
 <br>
