@@ -84,16 +84,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === false`)
      
@@ -107,16 +107,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === false && issock === true`)
      
@@ -128,16 +128,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === false`)
      
@@ -150,16 +150,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === false && isdb === true && issock === true`)
      
@@ -171,16 +171,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === false`)
      
@@ -192,16 +192,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === false && issock === true`)
      
@@ -214,16 +214,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === false`)
      
@@ -237,16 +237,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Javascript" && isgraphql === true && isdb === true && issock === true`)
      
@@ -265,16 +265,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === false`)
      
@@ -287,16 +287,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === false && issock === true`)
      
@@ -309,16 +309,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
       // console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === false`)
      
     }
@@ -330,16 +330,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === false && isdb === true && issock === true`)
      
@@ -351,16 +351,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === false`)
      
@@ -372,16 +372,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === false && issock === true`)
      
@@ -394,16 +394,16 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === false`)
      
@@ -416,31 +416,27 @@ inquirer
 
       console.log(chalk.green('________________________________________'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.green.bold('Project created successfully!'));
+      console.log(chalk.green.bold('  Project created successfully!'));
       console.log(chalk.yellowBright(`` ));
-      console.log(chalk.yellowBright(`Navigate to the project directory` ));
-      console.log(chalk.yellowBright(`cd ${answers.projectName}` ));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm install'));
-      console.log(chalk.cyanBright.bold(`Run` ));
-      console.log(chalk.greenBright('npm run dev'));
-      console.log(chalk.gray('Happy Coding !'));
-      console.log(chalk.magentaBright('Servobase | Made with ❤️ by Vidit Tamrakar'));
+      console.log(chalk.yellowBright(`  Navigate to the project directory` ));
+      console.log(chalk.yellowBright(`  cd ${answers.projectName}` ));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm install'));
+      console.log(chalk.cyanBright.bold(`  Run` ));
+      console.log(chalk.greenBright('  npm run dev'));
+      console.log(chalk.gray('  Happy Coding !'));
+      console.log(chalk.magentaBright('  Servobase | Made with ❤️ by Vidit Tamrakar'));
 
       // console.log(`chosenLanguages === "Typescript" && isgraphql === true && isdb === true && issock === true`)
      
     }
    
-
-
-    
    
     else{
       
       console.log("no option chosen");
     }
 
-   
-      
+    
     
   });
